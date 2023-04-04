@@ -1,0 +1,27 @@
+<!--Hola Mundo {{title}}
+<button (click)="(cambiarTitulo())">cambiar</button>
+<input [(ngModel)]="variable"/>
+<p>{{variable}}</p>
+
+<input [(ngModel)]="num1"/>
+
+<input [(ngModel)]="num2"/>
+
+<button (click)="sumar()">sumar</button>
+{{resul}}-->
+
+<input  [(ngModel)] ="edad1"><br>
+<input  [(ngModel)]="edad2"><br>
+
+<button (click)="calcular()">Calcular</button><br><br>
+
+<div *ngIf="flag">
+<input  [(ngModel)]="suma "/><br>
+<input  [(ngModel)]="promedio" /><br>
+</div>
+<button (click)="limpiar()">Limpiar cuadros de texto</button><br><br><br>
+
+
+<button routerLink="/bienvenido">Bienvenido</button><br>
+<button routerLink="login">Login</button><br>
+<button routerLink="error">Error</button><br>
